@@ -1,0 +1,4 @@
+key (required)	str	Your API key: 16997109-7f0e3215b93572c0bd796cdf9
+
+Строка запроса
+https://pixabay.com/api/?image_type=photo&orientation=horizontal&q=что_искать&page=номер_страницы&per_page=12&key=твой_ключ
