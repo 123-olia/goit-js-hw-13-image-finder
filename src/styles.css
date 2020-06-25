@@ -19,10 +19,38 @@ body {
   background-image: url('./images/bg-pattern.png');
 }
 
+.search-form {
+  text-align: center;
+}
+
+.input {
+  padding: 20px;
+  min-width: 200px;
+  border-radius: 5px;
+  border: 2px #ed3330 solid;
+}
+
+.load-more {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  margin: 20px auto 0;
+  transition: all 0.4s ease 0s;
+}
+
+.load-more:hover {
+  background-color: rgb(87, 207, 207);
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  grid-gap: 16px;
+  grid-gap: 20px;
 
   padding: 0;
   margin: 0;
@@ -32,7 +60,6 @@ body {
 .gallery img {
   max-width: 100%;
   display: block;
-  /* height: auto; */
 }
 
 .stats {

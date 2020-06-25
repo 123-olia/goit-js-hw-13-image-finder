@@ -12,7 +12,7 @@ export default {
       const response = await fetch(baseUrl + srchQuery);
       const data = await response.json();
       this.incrementPage();
-      return this.data;
+      return data.hits;
     } catch (err) {
       return error('Some error in fetch');
     }
